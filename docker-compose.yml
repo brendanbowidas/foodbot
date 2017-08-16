@@ -1,0 +1,5 @@
+app:
+  build: .
+  env_file: .env
+  container_name: app
+  command: mix run --no-halt
